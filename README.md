@@ -31,6 +31,6 @@ Review the chunked data in .pf/readthis/ for complete findings.
 ```
 ```
  ===========================================================================
-|OUTPUT FILE LOCATION :->ExampleSouceCodeFolder/.pf/readthis/patterns.json  |
+|OUTPUT FILE LOCATION :->your-project/.pf/readthis/patterns.json  |
  ===========================================================================
 ```
