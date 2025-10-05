@@ -1,4 +1,4 @@
-# Secure Source Code Review Using Auditor
+# 1. Secure Source Code Review Using Auditor
 ### Installation
 ```
 1. git clone https://github.com/TheAuditorTool/Auditor
@@ -30,7 +30,27 @@ Findings breakdown:
 Review the chunked data in .pf/readthis/ for complete findings.
 ```
 ```
- ===========================================================================
+ =================================================================
 |OUTPUT FILE LOCATION :->your-project/.pf/readthis/patterns.json  |
- ===========================================================================
+ =================================================================
+```
+# 2. Secure Source Code Review Using Semgrep
+### Installation
+```
+1. pip install semgrep 
+2. semgrep --version    
+```
+### Execution
+
+```
+1. cd ~/your-project
+2. semgrep --config auto .
+3. semgrep --config auto . --json
+```
+
+### OUTPUT: semgrep-results.json
+```
+ =================================================================
+|OUTPUT FILE LOCATION :->your-project/semgrep-results.json |
+ =================================================================
 ```
