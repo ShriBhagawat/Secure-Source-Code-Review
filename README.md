@@ -100,3 +100,7 @@ Review the chunked data in .pf/readthis/ for complete findings.
 |OUTPUT FILE LOCATION :->your-project/semgrep-results.json |
  =================================================================
 ```
+# 4. Get Number of Line of Code
+```
+Get-ChildItem -Recurse -Path "Code-FOlder" -Include *.java,*.js,*.xml,*.jsp,*.json,*.properties,*.py,*.php,*.html,*.css | Get-Content | Measure-Object -Line
+```
